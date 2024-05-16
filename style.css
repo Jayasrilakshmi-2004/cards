@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#countdown {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.container h4{
+  background-color: cadetblue;
+}
+
+
+/* E-commerce starts */
+.nav{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+.cart-list img{
+  width: 100px;
+  height: 100px;
+  border-radius: 200%;
+}
+.cards-items img{
+  width: 100%;
+  height: 40vh;
+}
+.cards-items{
+  box-shadow: 0px 0px 3px 0px;
+  border-radius: 10px;
+}
+.cart-icons i{
+  cursor: pointer;
+  margin: 0px 20px;
+}
+.cart-icons span{
+  top: -20px;
+  right: -11px;
+  border-radius: 50%;
+  padding: 0px 8px;
+  box-shadow: 0px 0px 3px 0px;
+}
+.cart{
+  width: 40%;
+  position: fixed ;
+  top: 0px;
+  left: 0px;
+  background-color: #fff;
+  height: 100vh;
+  transform: translateY(-100%);
+  transition: all 0.5s ease-in-out;
+  overflow-y: scroll;
+}
+.cart-active{
+  transform: translateY(0%);
+  transition: all 0.5s ease-in-out;
+}
+/* E-commerce ends */
+
+/* .toast-notification{
+  display: none;
+}
+.toast-notification-active{
+  display: block;
+}
+.toast:not(.showing):not(.show) {
+  opacity: 1 !important;
+}
+.total{
+  position: sticky;
+  bottom: 0;
+}
+.total button{
+  width: 100%;
+} */
+.cards-items:hover{
+  box-shadow: 7px 7px 5px 5px blue;
+}
+/* .registrationForm{
+  justify-content: center;
+  
+} */
